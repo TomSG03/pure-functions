@@ -4,4 +4,6 @@
 - [x] Babel
 - [x] ESLint 
 
-  > в .eslintrc.json добавил правило - "no-unused-vars": "warn" - Не используемые переменные не считать ошибкой 
+  > в .eslintrc.json добавил правила:
+  >  - "no-unused-vars": "warn" - Не используемые переменные не считать ошибкой 
+  >  - "linebreak-style": ["error", "windows"] - Перевод строки под Windows
