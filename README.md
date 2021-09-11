@@ -1,5 +1,5 @@
 # Продвинутый JavaScript: современные возможности языка
 ## [Домашнее задание к лекции «Модули»](https://github.com/TomSG03/ajs-homeworks/tree/master/modules)
 - [x] Webpack
-- [x] Import/Export
+- [x] [Import/Export](https://github.com/TomSG03/ajs-homeworks_modules)
 - [x] [ESM (задача со звёздочкой)](https://github.com/TomSG03/ajs-homeworks_modules_ESM)
