@@ -2,4 +2,4 @@
 ## [Домашнее задание к лекции «Модули»](https://github.com/TomSG03/ajs-homeworks/tree/master/modules)
 - [x] Webpack
 - [x] Import/Export
-- [ ] ESM (задача со звёздочкой)
+- [x] [ESM (задача со звёздочкой)](https://github.com/TomSG03/ajs-homeworks_modules_ESM)
