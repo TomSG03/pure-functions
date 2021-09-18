@@ -16,8 +16,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
         },
-      },   
-      
+      },
       {
         test: /\.html$/,
         use: [
@@ -25,8 +24,7 @@ module.exports = {
             loader: 'html-loader',
           },
         ],
-      },      
-
+      },
       {
         test: /\.css$/,
         use: [
