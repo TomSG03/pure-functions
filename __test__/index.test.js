@@ -1,25 +1,14 @@
 import healthStatus from '../src/js/app';
 
-test('return healht status', () => {
-  const input = { name: 'Маг', health: 90 };
-  const expected = 'healthy';
-  const received = healthStatus(input);
-
-  expect(received).toBe(expected);
-});
-
-test('return healht status', () => {
-  const input = { name: 'Маг', health: 40 };
-  const expected = 'wounded';
-  const received = healthStatus(input);
-
-  expect(received).toBe(expected);
-});
-
-test('return healht status', () => {
-  const input = { name: 'Маг', health: 10 };
-  const expected = 'critical';
-  const received = healthStatus(input);
-
-  expect(received).toBe(expected);
-});
+test.each([
+  ['Маг', 90, 'healthy'],
+  ['Маг', 50, 'wounded'],
+  ['Маг', 40, 'wounded'],
+  ['Маг', 10, 'critical'],
+])(
+  'return healht status',
+  (name, health, expected) => {
+    const received = healthStatus({ name, health });
+    expect(received).toBe(expected);
+  },
+);

@@ -1,13 +1,9 @@
-export default function healthStatus({ name, health }) {
-  let rezult;
-  if (health > 50) {
-    rezult = 'healthy';
+export default function healthStatus(person) {
+  if (person.health > 50) {
+    return 'healthy';
   }
-  if (health <= 50 && health >= 15) {
-    rezult = 'wounded';
+  if (person.health <= 50 && person.health >= 15) {
+    return 'wounded';
   }
-  if (health < 15) {
-    rezult = 'critical';
-  }
-  return rezult;
+  return 'critical';
 }
