@@ -2,3 +2,4 @@
 ## [Домашнее задание к лекции «Unit-тестирование»](https://github.com/TomSG03/ajs-homeworks/tree/master/test-ci) - Задача Чистые функции
 - [x] Чистые функции
 - [x] [Matchers](https://github.com/TomSG03/Matchers)
+- [x] [Mocking](https://github.com/TomSG03/ajs-test-ci-mocking)
